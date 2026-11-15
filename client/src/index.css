@@ -1,0 +1,15 @@
+* { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Segoe UI', sans-serif; }
+body { background: #f0fdf4; color: #1a1a1a; }
+.nav { background: #166534; color: white; padding: 1rem 2rem; display: flex; justify-content: space-between; align-items: center; }
+.container { max-width: 900px; margin: 2rem auto; padding: 0 1rem; }
+.upload-box {
+    border: 3px dashed #22c55e; border-radius: 12px; padding: 3rem; 
+    text-align: center; background: white; cursor: pointer; transition: 0.3s;
+}
+.upload-box:hover { background: #dcfce7; }
+.result-card {
+    background: white; padding: 2rem; border-radius: 12px; margin-top: 2rem;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.05); border-left: 8px solid #22c55e;
+}
+.result-card.diseased { border-left-color: #ef4444; }
+.btn { background: #16a34a; color: white; padding: 0.8rem 2rem; border: none; border-radius: 8px; cursor: pointer; font-size: 1rem; font-weight: bold; }

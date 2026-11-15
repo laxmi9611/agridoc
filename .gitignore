@@ -1,0 +1,24 @@
+# Node.js
+node_modules/
+npm-debug.log
+
+# Environment Variables
+.env
+.env.local
+
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+ai_service/venv/
+ai_service/__pycache__/
+ai_service/model.pkl
+
+# React
+client/dist/
+client/node_modules/
+
+# OS / Editor
+.vscode/
+.DS_Store
